@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app="testApp">
+<h2>Using Element Name:</h2>
+<test-directive></test-directive>
+<h3>Hello world</h3>
+<div test-directive></div>
+<script>
+var app=angular.module("testApp" , []);
+app.directive("testDirective" , function(){
+	return{
+		template: "<h3>Template New directive Div Calling msg.</h3>"
+	};
+});
+</script>
+</body>
+</html>

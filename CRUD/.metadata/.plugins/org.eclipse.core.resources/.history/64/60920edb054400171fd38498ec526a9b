@@ -1,0 +1,15 @@
+package org.iowa;
+
+public class FunctionCalling {
+	public static void main(String[] args) {
+
+	}
+
+	public static int areaRectangle(int length, int width) {
+		return length * width;
+	}
+
+	public static int perimeterRectangle(int length, int width) {
+		return 2 * (length + width);
+	}
+}

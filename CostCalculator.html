@@ -1,0 +1,12 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+</script>
+<body>
+<div ng-app="" ng-init="TotalCost=300; TotalKgs=60">
+<h2> Kg's Calculator</h2>
+TotalCost <input type="number" min-value="300" ng-model="TotalCost">
+TotalKgs <input type="number" min-value="60" ng-model="TotalKgs">
+<p> <b>The Cost of one kg is </b> {{TotalCost/TotalKgs}}
+</body>
+
+</html>

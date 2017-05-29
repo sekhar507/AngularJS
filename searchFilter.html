@@ -1,0 +1,30 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<div ng-app="testApp" ng-controller="ctrlName">
+<p>Type here search Query:<input type="text" ng-model="test"></p>
+<ol>
+<li ng-repeat="x in names| filter:test ">
+{{x.name}}
+<li>
+</ol>
+</div>
+<script>
+var app=angular.module("testApp" , []);
+app.controller('ctrlName' , function($scope){
+	$scope.names=[
+	{name:'Jagan'},
+	{name:'Nagamani'},
+	{name:'Durgarao'},
+	{name:'Gayathri'},
+	{name:'Sekhar'},
+	{name:'SekharGayathri'},
+	{name:'Sai'},
+	{name:'Pandu'},
+	{name:'Ammu'},
+	{name:'Tulasi'}
+	];
+	
+});
+</script>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<div ng-app="testApp" ng-controller="ctrlName">
+<ul>
+<li ng-repeat="x in names | orderBy:'course'" >
+{{ (x.course |uppercase) + " Price is " + (x.price|currency)}}
+<li>
+</ul>
+</div>
+<script>
+var app=angular.module("testApp" , []);
+app.controller('ctrlName' , function($scope){
+	$scope.names=[
+	{course:'Spring',price:20},
+	{course:'Hibernate',price:30},
+	{course:'CoreJava',price:40},
+	{course:'JPA',price:50},
+	{course:'AWS',price:60}
+	];
+	
+});
+</script>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<body>
+<div ng-app="testApp" ng-controller="ctrlName">
+<p> Name in upper Case is {{empName|uppercase}}
+<p> Name in upper Case is {{empRole|lowercase}}
+</div>
+<script>
+var app=angular.module("testApp" , []);
+app.controller('ctrlName' , function($scope){
+
+$scope.empName="Sekhar";
+$scope.empRole="Java Developer";
+});
+</script>
+</body>
+</html>

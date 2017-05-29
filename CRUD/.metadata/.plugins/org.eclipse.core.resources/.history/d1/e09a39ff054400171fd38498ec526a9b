@@ -1,0 +1,24 @@
+package org.iowa;
+
+import java.util.Scanner;
+
+public class FunctionCalling {
+	public static void main(String[] args) {
+		Scanner toread = new Scanner(System.in);
+		System.out.println("Please Enter Length::");
+		int l=toread.nextInt();
+		System.out.println("Please Enter width::");
+		int w=toread.nextInt();
+		int area=areaRectangle(l,w);
+		int per=perimeterRectangle(l,w);
+
+	}
+
+	public static int areaRectangle(int length, int width) {
+		return length * width;
+	}
+
+	public static int perimeterRectangle(int length, int width) {
+		return 2 * (length + width);
+	}
+}

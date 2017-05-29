@@ -1,0 +1,22 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<body>
+<div ng-app="" ng-init="Friends=[
+{name:'HemaSekhar' , location:'IOWA'},
+{name:'Prathyusha' , location:'San jose'},
+{name:'Sardar' , location:'Columbus'},
+{name:'Rahul' , location:'Virgenia'},
+{name:'Siddu' , location:'Virgenia'},
+{name:'Royal' , location:'PitsBerg'}]"
+>
+  <p> Looping Elements printing  in ordered list </p>
+	<ol>
+
+		<li ng-repeat = "x in Friends">
+			{{ x.name + " He is in " + x.location}}
+		</li>
+	</ol>
+</div>
+</body>
+</html>

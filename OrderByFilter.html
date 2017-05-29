@@ -1,0 +1,22 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+<div ng-app="testApp" ng-controller="ctrlName">
+<ul>
+<li ng-repeat="x in names | orderBy:'name'" >
+{{ (x.name |uppercase) + " is in " + x.Country}}
+<li>
+</ul>
+</div>
+<script>
+var app=angular.module("testApp" , []);
+app.controller('ctrlName' , function($scope){
+	$scope.names=[
+	{name:'Sekhar',Country:'India'},
+	{name:'Royal',Country:'USA'},
+	{name:'Reddy',Country:'Africa'}
+	];
+	
+});
+</script>
+</html>

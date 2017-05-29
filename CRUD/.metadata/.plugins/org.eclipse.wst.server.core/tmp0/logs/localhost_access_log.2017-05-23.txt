@@ -1,0 +1,8 @@
+127.0.0.1 - - [23/May/2017:00:31:26 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [23/May/2017:05:17:56 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:18:21 +0530] "GET /AngularjsJAXRSCRUDExample/rest/countries HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:18:22 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:19:35 +0530] "GET /AngularjsJAXRSCRUDExample/angularJSCrudExample.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:19:35 +0530] "GET /AngularjsJAXRSCRUDExample/rest/countries HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:19:53 +0530] "DELETE /AngularjsJAXRSCRUDExample/rest/countries/4 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [23/May/2017:05:19:53 +0530] "GET /AngularjsJAXRSCRUDExample/rest/countries HTTP/1.1" 200 161

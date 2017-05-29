@@ -1,0 +1,7 @@
+INDEX VERSION 1.127
+F:\AngularJS Work\CRUD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1374115930.index
+\TaskManagerApp\src
+F:\AngularJS Work\CRUD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3612442908.index
+\AngularjsJAXRSCRUDExample\src\main\java
+F:\AngularJS Work\CRUD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4153497016.index
+\Spring4RESTAngularJS\src\main\java
